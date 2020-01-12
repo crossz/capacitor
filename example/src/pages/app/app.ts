@@ -2,6 +2,11 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Plugins } from '@capacitor/core';
 
+// import { ZxCap } from 'zx-cap';
+
+const { ZxCapDemoPlugin } = Plugins;
+
+
 /**
  * Generated class for the AppPage page.
  *
@@ -39,6 +44,9 @@ export class AppPage {
   async canOpenUrl() {
     const ret = await Plugins.App.canOpenUrl({ url: 'com.getcapacitor.myapp' });
     console.log('Can open url: ', ret.value);
+
+
+
   }
 
   async openUrl() {
@@ -49,4 +57,19 @@ export class AppPage {
   async failCall() {
     await Plugins.App.openUrl({ url: null });
   }
+
+
+
+  async zxPluginJump() {
+    // await ZxCap.echo({value: 'zhengxin'});
+
+    // const aaa = new ZxCap();
+    // await aaa.echo({value: 'zhengxin'});
+
+    // await Plugins.ZxCap.echo({value: 'zhengxin'})
+    await ZxCapDemoPlugin.echo({value: 'zhengxin'})
+
+
+  }
+
 }

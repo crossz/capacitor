@@ -1,5 +1,6 @@
-include ':app', ':android-capacitor', ':plugin'
+include ':app', ':android-capacitor', ':plugin', ':android-intentDemo'
 project(':android-capacitor').projectDir=new File('../../android/capacitor/')
 // Uncomment to test/dev the plugin (make sure to change its dependency on capacitor-android to a local reference)
 // project(':plugin').projectDir=new File('../../plugin-template/android/plugin/')
 
+project(':android-intentDemo').projectDir=new File('../../androidIntentDemo/app')

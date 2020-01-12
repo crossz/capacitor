@@ -10,6 +10,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   rootPage = 'AppPage';
+  // rootPage = 'LocalNotificationsPage';
 
   PLUGINS = [
     { name: 'App', page: 'AppPage' },

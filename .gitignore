@@ -1,5 +1,7 @@
 .idea/
 dist
+gradle
+.gradle
 .sourcemaps
 xcuserdata/
 node_modules/
