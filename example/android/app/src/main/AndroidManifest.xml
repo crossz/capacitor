@@ -31,15 +31,15 @@ package="com.getcapacitor.myapp">
         </activity>
 
 
-        <activity
-            android:name="com.example.activitytest.SecondActivity"
-            android:label="SecondActivity" />
-        <activity android:name="com.example.activitytest.ThirdActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"></action>
-                <category android:name="android.intent.category.DEFAULT"></category>
-            </intent-filter>
-        </activity>
+<!--        <activity-->
+<!--            android:name="com.example.activitytest.SecondActivity"-->
+<!--            android:label="SecondActivity" />-->
+<!--        <activity android:name="com.example.activitytest.ThirdActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.VIEW"></action>-->
+<!--                <category android:name="android.intent.category.DEFAULT"></category>-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
 
 
         <provider
