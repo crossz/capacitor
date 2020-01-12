@@ -67,8 +67,8 @@ export class AppPage {
     // await aaa.echo({value: 'zhengxin'});
 
     // await Plugins.ZxCap.echo({value: 'zhengxin'})
-    await ZxCapDemoPlugin.echo({value: 'zhengxin'})
-
+    const aaa = await ZxCapDemoPlugin.echo({value: 'zhengxin'});
+    console.log(aaa.value1);
 
   }
 

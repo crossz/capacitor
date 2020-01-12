@@ -37,7 +37,8 @@ public class ZxCapDemoPlugin extends Plugin {
 
 
         JSObject ret = new JSObject();
-        ret.put("value", value+value+value);
-        call.success(ret);
+        ret.put("value1", value+value+value);
+//        call.success(ret);
+        call.resolve(ret);
     }
 }
