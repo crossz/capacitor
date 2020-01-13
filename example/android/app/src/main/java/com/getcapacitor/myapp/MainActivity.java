@@ -4,7 +4,9 @@ import android.os.Bundle;
 
 import com.getcapacitor.BridgeActivity;
 import com.getcapacitor.Plugin;
+//import com.zx.cap.plugindemo.ZxCapDemoPlugin;
 import com.zx.cap.plugindemo.ZxCapDemoPlugin;
+
 
 import java.util.ArrayList;
 
